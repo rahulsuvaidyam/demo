@@ -95,6 +95,24 @@
     background-color: rgb(243, 36, 71);
     border: 0.1px solid rgb(243, 36, 71);
 }
+.card-circle-1{
+    display: flex;
+}
+.card-circle{
+    width: 2vw;
+    height: 4.5vh;
+    border: 5px solid wheat;
+    border-radius: 15vw;
+    margin: 1vw 2.5vw;
+    border-bottom-color:red;
+    border-right-color: red;
+    border-top-color: red ;
+    
+}
+#paira{
+    color: red;
+    text-align: center;
+}
 /* dfvf */
 .card-larse{
     display: flex;
@@ -122,6 +140,17 @@ hr{
     width: 50%;
     height: 50vh;
 
+}
+.circle-1{
+    width: 18vw;
+    height: 38vh;
+    border: 15px solid green;
+    border-radius: 15vw;
+    margin: 1vw 3vw;
+    border-bottom-color:greenyellow;
+    border-right-color: blue;
+    border-top-color: red ;
+    border-left-color: rgb(124, 30, 46);
 }
 .circle-con{
     width: 50%;
@@ -351,6 +380,63 @@ hr{
     margin-left: 1vw;
     position: absolute;
 }
+/* ======form===== */
+.form{
+    display: flex;
+}
+.form-con{
+    margin-left: 2vw;
+}
+.form-1{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid wheat;
+    
+}
+#form-input{
+    margin: 0.5vw ;
+    opacity: 0.4;
+}
+.can-form{
+    width: 78vw;
+    height: 25vh;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    margin: 1vw 2vw;
+
+}
+.sec{
+    width: 78vw;
+    height: 6vh;
+    background-color: whitesmoke;
+}
+#sec-1{
+    margin: 0.7vw;
+    position: absolute;
+    opacity: 0.5;
+}
+.sec-3{
+    margin-left: 1vw;
+    float: left;
+}
+input{
+    width: 37vw;
+    height: 4vh;
+}
+.sec-4{
+    margin-left: 40vw;
+}
+.sec-20{
+    margin-top: 2vw;
+}
+.sec-30{
+    margin-left: 1vw;
+    float: left;
+}
+.sec-40{
+    margin-left: 40vw;
+}
 
 
 /* =================mobile view=============== */
@@ -406,12 +492,17 @@ hr{
     #line{
         width: 88vw;
     }
+    .card-circle{
+        width: 21vw;
+        height: 21.5vw;
+    }
     .card-larse{
         display: block;
         margin-top: 8vw;
     }
     .card-boxl{
         width: 90vw;
+        height: 70vh;
         margin-left: 4.5vw;
     }
     hr{
@@ -422,8 +513,37 @@ hr{
         width: 90vw;
         margin-left: 4.5vw;
     }
+    .bulet-bule{
+        width: 8vw;
+    }
+    .bulet-green{
+        width: 8vw;
+    }
+    .bulet-red{
+        width: 8vw;
+    }
+    .bulet-orenge{
+        width: 8vw;
+    }
+    #color{
+        width: 54vw;
+        margin-left: 14vw;
+    }
      #line1{
          width: 86vw;
+     }
+     .card-button{
+         display: block;
+     }
+     .circle-1{
+         width: 44vw;
+         height: 25vh;
+         border-radius: 38vw;
+         margin: 3vw 19vw;
+     }
+     .circle-con{
+         margin-top: -26vw;
+         margin-left: 8vw;
      }
     .date{
         margin-left: 6.7vw;
@@ -462,6 +582,42 @@ hr{
         height: 5vh;
     }
 
+/* ==========3rd============== */
+.form{
+    display: block;
+}
+.form-1{
+    width: 92vw;
+    
+}
+.form-con{
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+.can-form{
+    width: 94vw;
+    height: 44vh;
+}
+.sec{
+    width: 94vw;
+}
+input{
+    width: 91vw;
+}
+.sec-3{
+    margin-top: 1vw;
+}
+.sec-4{
+    margin-left: 1vw;
+}
+.sec-20{
+    margin-top: 4vw;
+}
+.sec-40{
+    position: absolute;
+    margin-top: 12vw;
+    margin-left: 1vw;
+}
 
        
 }
