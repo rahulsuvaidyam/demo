@@ -522,9 +522,9 @@ hr{
     }
     table{
         z-index: 1;
-        width: 60vw;
+        width: 65vw;
         height: 26vh;
-        left: -123%;
+        left: -65vw;
         position: relative;
         transition: .5s;
         background-color: rgb(243, 36, 71);
@@ -532,7 +532,7 @@ hr{
         text-align: left;
     }
     th{
-        height: 10vw;
+        height: 16vw;
         border-bottom: 1px solid rgba(128, 113, 113, 0.555);
         color: white;
     }
@@ -542,7 +542,8 @@ hr{
         margin-left: 3vw;
     }
     .nav-log{
-        margin-left: 4vw;
+        margin-left: 8vw;
+        margin-top: 2vw;
         
     }
     :checked~table{
