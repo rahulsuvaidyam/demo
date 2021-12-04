@@ -306,8 +306,8 @@ hr{
     color: white;
 }
 #travel-input{
-    width: 10vw;
-    height: 3vh;
+    width: 17vw;
+    height: 4vh;
     margin-left: 1vw;
     border-radius: 5px;
 }
@@ -347,7 +347,7 @@ hr{
 }
 #chat-input{
     width: 8vw;
-    height: 3vh;
+    height: 4vh;
     border-radius: 5px;
     margin: 1vw 10vw;
 }
@@ -419,12 +419,19 @@ hr{
     opacity: 0.5;
 }
 .sec-3{
-    margin-left: 1vw;
+    margin-left: 2vw;
     float: left;
 }
 #input{
-    width: 37vw;
+    width: 35vw;
     height: 4vh;
+    margin-left: vw;
+}
+#input-o{
+    width: 35vw;
+    height: 4vh;
+    margin-left: 2vw;
+    margin-top: 2vw;
 }
 #input-1{
     width: 25vw;
@@ -437,7 +444,7 @@ hr{
     margin-top: 2vw;
 }
 .city{
-    width: 10vw;
+    width: 13vw;
     height: 4vh;
     border: 2px solid whitesmoke;
     margin-left: 2vw;
@@ -485,9 +492,9 @@ hr{
     }
     table{
         z-index: 1;
-        width: 65vw;
+        width: 100vw;
         height: 26vh;
-        left: -78vw;
+        left: -100vw;
         position: relative;
         transition: .5s;
         background-color: rgb(243, 36, 71);
@@ -614,13 +621,13 @@ hr{
      }
      .circle-1{
          width: 46vw;
-         height: 25vh;
+         height: 26vh;
          border-radius: 38vw;
          margin: 3vw 19vw;
      }
      .circle-2{
          width: 40vw;
-         height: 21vh;
+         height: 22.5vh;
          border-radius: 25vw;
          margin: 1.5vw 1.5vw;
      }
@@ -652,7 +659,7 @@ hr{
     }
     #travel-input{
         width: 91vw;
-        height: 4vh;
+        height: 6vh;
         margin-top: 4vw;
     }
     .travel-chat{
@@ -660,7 +667,8 @@ hr{
         margin-left: 2vw;
     }
     #chat-input{
-        width: 10vw;
+        width: 21vw;
+        margin: 1vw 6vw;
     }
     .travel-h{
         width: 96vw;        
@@ -736,6 +744,11 @@ hr{
     height: 5vh;
     margin: 2vw 2.5vw;
 }
+#input-o{
+    width: 87vw;
+    height: 5vh;
+    margin: 2vw 2.5vw;
+}
 #input-1{
     width: 91vw;
 }
@@ -768,4 +781,30 @@ hr{
 }
 
        
+}
+@media only screen and (min-width:370px) and (max-width:376px){
+    .circle-1{
+        width: 57vw;
+        margin-left: 14vw;
+    }
+    .circle-2{
+        width: 51vw;
+        height: 23vh;
+    }
+    .nav-gap{
+        height: 20vw;
+    }
+    #input-o{
+        width: 86vw;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:412px){
+    .circle-1{
+        width: 52vw;
+        margin-left: 14vw;
+    }
+    .circle-2{
+        width: 46vw;
+        height: 22vh;
+    }
 }
