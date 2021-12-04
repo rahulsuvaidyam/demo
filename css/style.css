@@ -12,10 +12,12 @@
     background-color: rgb(243,36,71);
 }
 .checkbtn{
-    display: none;
     font-size: 30px;
-    cursor: pointer;
     color: white;
+    line-height: 50px;
+    margin-left: 3vw;
+    cursor: pointer;
+    display: none;
 }
 #check{
     display: none;
@@ -155,6 +157,7 @@ hr{
     border-right-color: blue;
     border-top-color: red ;
     border-left-color: rgb(124, 30, 46);
+    opacity: 0.7;
 }
 .circle-2{
     width: 16vw;
@@ -167,6 +170,20 @@ hr{
 .circle-con{
     width: 50%;
     height: 50vh;
+}
+#circle-mid{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 6vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#circle-mid-1{
+    font-size: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+    
 }
 .bulet-bule{
     width: 2vw;
@@ -256,6 +273,7 @@ hr{
     width: 82vw;
 }
 #so-1{
+    width: 82vw;
     margin: 1vw 1vw;
 }
 .filter{
@@ -435,7 +453,7 @@ hr{
     margin-left: 1vw;
     float: left;
 }
-input{
+#input{
     width: 37vw;
     height: 4vh;
 }
@@ -464,13 +482,27 @@ input{
     margin: 0.5vw 1vw;
     font-weight: bold;
 }
-
+.save-box{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background-color: red;
+    margin: 10vw 1vw;
+    opacity: 0.7;
+}
+#save{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
 /* =================mobile view=============== */
 
 @media only screen and (max-width :768px){
     .checkbtn{
         display: block;
-        margin: 3vw 3vw;
+        
     }
     .left-side{
         position: fixed;
@@ -552,6 +584,9 @@ input{
         margin-left: 1.5vw;
         margin-top: 4vw;
     }
+    #circle-mid{
+        margin-top: 10vw;
+    }
     .card-boxl1{
         width: 90vw;
         margin-left: 4.5vw;
@@ -580,13 +615,13 @@ input{
          display: block;
      }
      .circle-1{
-         width: 44vw;
+         width: 46vw;
          height: 25vh;
          border-radius: 38vw;
          margin: 3vw 19vw;
      }
      .circle-2{
-         width: 37vw;
+         width: 40vw;
          height: 21vh;
          border-radius: 25vw;
          margin: 1.5vw 1.5vw;
@@ -620,18 +655,51 @@ input{
     }
     .travel-chat{
         width: 96vw;
+        height: 170vh;
         margin-left: 2vw;
     }
     .travel-h{
         width: 96vw;
+        display: block;
+        
+    }
+    .row-100{
+        width: 30vw;
+        
     }
     .num-page{
         margin-left: 3vw;
         margin-top: 10vw;
     }
+    .box-num{
+        margin: 1.6vw 4vw;
+    }
     .page{
         width: 10vw;
         height: 5vh;
+    }
+    .chat-list{
+        display: block;
+    }
+    .chat-list-1{
+        text-align: left;
+        margin-left: 20vw;
+    }
+    .chat-list-2{
+        text-align: left;
+        margin-left: 20vw;
+    }
+    .chat-list-3{
+        text-align: left;
+        margin-left: 20vw;
+    }
+    .chat-list-4{
+        text-align: left;
+        margin-left: 20vw;
+    }
+    .chat-card{
+        width: 70vw;
+
     }
 
 /* ==========3rd============== */
@@ -665,7 +733,7 @@ input{
 .sec{
     width: 94vw;
 }
-input{
+#input{
     width: 91vw;
 }
 .sec-3{
