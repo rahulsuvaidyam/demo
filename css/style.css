@@ -217,6 +217,7 @@ hr{
     margin-left: 3vw;
     position: absolute;
     margin-top: 0.3vw;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -269,6 +270,10 @@ hr{
 /* =========travel---------------- */
 
 .right-so{
+    margin: 1.5vw 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-son{
     margin: 1.5vw 1vw;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -455,21 +460,15 @@ hr{
     margin: 0.5vw 1vw;
     font-weight: bold;
 }
-.save-box{
-    width: 10vw;
-    height: 5vh;
-    border-radius: 5px;
-    border: 2px solid whitesmoke;
-    background-color: red;
-    margin: 10vw 1vw;
-    opacity: 0.7;
-}
 #save{
-    text-align: center;
+    margin: 7vw 2vw;
+    width: 8vw;
+    height: 6vh;
+    background-color: red;
+    border-radius: 5px;
     font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
+
 /* =================mobile view=============== */
 
 @media only screen and (max-width :768px){
@@ -499,7 +498,7 @@ hr{
         transition: .5s;
         background-color: rgb(243, 36, 71);
         top: -4vw;
-        text-align: left;
+        text-align: center;
     }
     th{
         height: 16vw;
@@ -510,6 +509,7 @@ hr{
         text-align: center;
         color: white;
         margin-left: 3vw;
+        font-size: 1.5rem;
     }
     .nav-log{
         margin-left: 8vw;
@@ -524,7 +524,7 @@ hr{
           position: fixed;
       }
       .nav-gap{
-          height: 15vw;
+          height: 17vw;
       }
     .navbar{
         width: 49%;
@@ -650,8 +650,11 @@ hr{
     #so{
         width: 96vw;
     }
+    .right-so{
+        font-size: 1.2rem;
+    }
     .non{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .travel{
         display: block;
@@ -716,6 +719,12 @@ hr{
 /* ==========3rd============== */
 .right-side{
     width: 100%;
+    height: 120vh;
+}
+.right-son{
+    margin: 1.5vw 25vw;
+    width: 60vw;
+    font-size: 2rem;
 }
 .filter{
     width: 14vw;
@@ -730,7 +739,7 @@ hr{
     display: block;
 }
 .form-10{
-    margin: 4vw 2vw;
+    margin: 4vw 5vw;
 }
 .can-form{
     width: 94vw;
@@ -776,8 +785,13 @@ hr{
     width: 97vw;
     margin: 5vw 1vw;
 }
-.save-box{
-    width: 32vw;
+#save{
+    margin-left: 4vw;
+    width: 33vw;
+    height: 7vh;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 2rem;
 }
 
        
@@ -785,7 +799,7 @@ hr{
 @media only screen and (min-width:370px) and (max-width:376px){
     .circle-1{
         width: 57vw;
-        margin-left: 14vw;
+        margin-left: 12vw;
     }
     .circle-2{
         width: 51vw;
@@ -801,10 +815,17 @@ hr{
 @media only screen and (min-width:400px) and (max-width:412px){
     .circle-1{
         width: 52vw;
+        height: 52vw;
         margin-left: 14vw;
     }
     .circle-2{
         width: 46vw;
-        height: 22vh;
+        height: 26vh;
+    }
+    #circle-mid{
+        margin-top: 17vw;
+    }
+    #color{
+        margin-top: 1vw;
     }
 }
