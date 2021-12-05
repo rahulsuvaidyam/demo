@@ -826,7 +826,7 @@ hr{
         margin-top: 1vw;
     }
 }
-@media only screen and (min-width:310px) and (max-width:330px){
+@media only screen and (min-width:315px) and (max-width:330px){
     .circle-1{
         width: 51vw;
         margin-left: 14vw;
@@ -835,13 +835,32 @@ hr{
         width: 44.5vw;
     }
     #circle-mid{
-        margin-top: 17vw;
+        margin-top: 13vw;
     }
     #color{
         width: 62vw;
     }
     #city-input{
         font-size: 0.9rem;
+    }
+    .claim{
+        width: 29vw;
+    }
+}
+@media only screen and (min-width:280px) and (max-width:315px){
+    .circle-1{
+        width: 54vw;
+        margin-left: 14vw;
+    }
+    .circle-2{
+        width: 47vw;
+    }
+    #circle-mid{
+        margin-top: 14vw;
+    }
+    #color{
+        width: 70vw;
+
     }
     .claim{
         width: 29vw;
