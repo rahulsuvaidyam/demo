@@ -160,7 +160,6 @@ hr{
     border-right-color: blue;
     border-top-color: red ;
     border-left-color: rgb(124, 30, 46);
-    opacity: 0.7;
 }
 .circle-2{
     width: 16vw;
@@ -185,7 +184,6 @@ hr{
     font-size: 1rem;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.5;
     
 }
 .bulet-bule{
@@ -294,7 +292,6 @@ hr{
 }
 .non{
     font-size: 1.7rem;
-    opacity: 0.4;
     margin-left: 0.4vw;
 }
 .claim{
@@ -827,5 +824,26 @@ hr{
     }
     #color{
         margin-top: 1vw;
+    }
+}
+@media only screen and (min-width:310px) and (max-width:330px){
+    .circle-1{
+        width: 51vw;
+        margin-left: 14vw;
+    }
+    .circle-2{
+        width: 44.5vw;
+    }
+    #circle-mid{
+        margin-top: 17vw;
+    }
+    #color{
+        width: 62vw;
+    }
+    #city-input{
+        font-size: 0.9rem;
+    }
+    .claim{
+        width: 29vw;
     }
 }
