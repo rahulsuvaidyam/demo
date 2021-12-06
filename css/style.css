@@ -560,6 +560,8 @@ hr{
         width: 90vw;
         height: 25vh;
         margin-top: 8vw;
+        border: 1px solid rgb(243, 36, 71);
+        border-radius: 9px;
     }
     #card-nam{
         font-size: 1.2rem;
@@ -590,6 +592,7 @@ hr{
         height: 65vh;
         margin-left: 4.5vw;
         border: 1px solid papayawhip;
+        border-radius: 3vw;
     }
     hr{
         width: 86vw;
@@ -601,8 +604,10 @@ hr{
     }
     .card-boxl1{
         width: 90vw;
+        height: 64vh;
         margin-left: 4.5vw;
         border: 1px solid papayawhip;
+        border-radius: 3vw;
     }
     .bulet-bule{
         width: 4vw;
