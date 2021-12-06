@@ -443,6 +443,9 @@ hr{
 .sec-4{
     margin-left: 40vw;
 }
+.sec-5{
+    display: none;
+}
 .sec-20{
     margin-top: 2vw;
 }
@@ -509,7 +512,7 @@ hr{
         font-size: 1.5rem;
     }
     .nav-log{
-        margin-left: 9vw;
+        margin-left: 6vw;
         margin-top: 2vw;
         
     }
@@ -765,9 +768,13 @@ hr{
 }
 .sec-3{
     margin-top: 1vw;
+    margin-left: 0;
 }
 .sec-4{
-    margin-left: 1vw;
+    display: none;
+}
+.sec-5{
+    display: block;
 }
 .sec-40{
     position: absolute;
