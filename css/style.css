@@ -11,7 +11,7 @@ nav{
 }
 .navbar{
     width: 85%;
-    height: 8vh;
+    height: 4vw;
     background-color: rgb(243,36,71);
 }
 .checkbtn{
@@ -34,7 +34,7 @@ nav{
 }
 .navbar-right{
     width: 15%;
-    height: 8vh;
+    height: 4vw;
     background-color: rgb(243, 36, 71);
 }
 
@@ -52,9 +52,15 @@ nav{
 .main{
     display: flex;
 }
+.main-2{
+    display: flex;
+}
+.main-3{
+    display: flex;
+}
 .left-side{
     width: 15%;
-    height: 100vh;
+    height: 50vw;
     background-color: rgb(243, 36, 71);
 }
 .dashboard{
@@ -81,7 +87,7 @@ nav{
 .card-box{
     margin: 2.5vw 1.5vw;
     width: 25vw;
-    height: 22vh;
+    height: 11vw;
     border: 2px solid rgb(243, 36, 71);
     box-shadow: 0px 8px 0px 0px black;
     border-radius: 3px;
@@ -105,7 +111,7 @@ nav{
 }
 .card-circle{
     width: 2.6vw;
-    height: 5.5vh;
+    height: 2.6vw;
     border: 5px solid wheat;
     border-radius: 15vw;
     margin: 1vw 2.5vw;
@@ -129,7 +135,7 @@ nav{
 .card-boxl{
     margin: 2.5vw 1.5vw;
     width: 44vw;
-    height: 58vh;
+    height: 27vw;
     border: 2px solid rgb(243, 36, 71);
     border-radius: 1vw;
 }
@@ -189,25 +195,25 @@ hr{
 }
 .bulet-bule{
     width: 1.5vw;
-    height: 3vh;
+    height: 1.5vw;
     background-color: blue;
     margin: 3vw 2vw;
 }
 .bulet-green{
     width: 1.5vw;
-    height: 3vh;
+    height: 1.5vw;
     background-color: greenyellow;
     margin: 3vw 2vw;
 }
 .bulet-red{
     width: 1.5vw;
-    height: 3vh;
+    height: 1.5vw;
     background-color: rgb(204, 56, 80);
     margin: 3vw 2vw;
 }
 .bulet-orenge{
     width: 1.5vw;
-    height: 3vh;
+    height: 1.5vw;
     background-color: rgb(124, 30, 46);
     margin: 3vw 2vw;
 }
@@ -226,7 +232,7 @@ hr{
 .card-boxl1{
     margin: 2.5vw 1.5vw;
     width: 30vw;
-    height: 58vh;
+    height: 27vw;
     box-shadow: 1px 2px 5px 3px whitesmoke;
     border-radius: 1vw;
 }
@@ -292,7 +298,7 @@ hr{
 .filter{
     float: right;
     width: 4.5vw;
-    height: 4.5vh;
+    height: 2.2vw;
     border-radius: 4px;
     border: 1px solid whitesmoke;
     margin-left: 0.8vw;
@@ -304,7 +310,7 @@ hr{
 .claim{
     float: right;
     width: 11vw;
-    height: 4.5vh;
+    height: 2.2vw;
     border-radius: 4px;
     border: 1px solid whitesmoke;
     background-color: rgb(243, 36, 71);
@@ -316,7 +322,7 @@ hr{
 }
 #travel-input{
     width: 17vw;
-    height: 4vh;
+    height: 2.2vw;
     margin-left: 1vw;
     border-radius: 5px;
 }
@@ -331,14 +337,14 @@ hr{
 }
 .travel-chat{
     width: 82vw;
-    height: 62vh;
+    height: 28vw;
     background-color: rgb(231 206 206);
     margin-left: 1vw;
     border-radius: 5px;
 }
 .travel-h{
     width: 82vw;
-    height: 8vh;
+    height: 4vw;
     border-radius: 5px;
     background-color: black;
     display: flex;
@@ -356,7 +362,7 @@ hr{
 }
 #chat-input{
     width: 8vw;
-    height: 4vh;
+    height: 2.2vw;
     border-radius: 5px;
     margin: 1vw 10vw;
 }
@@ -393,7 +399,7 @@ hr{
 }
 .page{
     width: 3vw;
-    height: 5.5vh;
+    height: 2.5vw;
     border: 1px solid rgb(243, 36, 71);
 }
 .box-num{
@@ -411,7 +417,7 @@ hr{
 }
 .can-form{
     width: 78vw;
-    height: 25vh;
+    height: 13vw;
     border: 2px solid whitesmoke;
     border-radius: 5px;
     margin: 1vw 2vw;
@@ -419,7 +425,7 @@ hr{
 }
 .sec{
     width: 78vw;
-    height: 6vh;
+    height: 3vw;
     background-color: whitesmoke;
 }
 #sec-1{
@@ -433,18 +439,18 @@ hr{
 }
 #input{
     width: 35vw;
-    height: 4vh;
+    height: 2.2vw;
     margin-left: vw;
 }
 #input-o{
     width: 35vw;
-    height: 4vh;
+    height: 2.2vw;
     margin-left: 2vw;
     margin-top: 2vw;
 }
 #input-1{
     width: 25vw;
-    height: 4vh;
+    height: 2vw;
 }
 .sec-4{
     margin-left: 40vw;
@@ -457,7 +463,7 @@ hr{
 }
 .city{
     width: 13vw;
-    height: 4vh;
+    height: 2vw;
     border: 2px solid whitesmoke;
     margin-left: 2vw;
 }
@@ -470,7 +476,7 @@ hr{
 #save{
     margin: 7vw 2vw;
     width: 8vw;
-    height: 6vh;
+    height: 3vw;
     background-color: red;
     border-radius: 5px;
     font-size: 2rem;
@@ -534,9 +540,11 @@ hr{
       }
     .navbar{
         width: 49%;
+        height: 15vw;
     } 
     .navbar-right{
         width: 51%;
+        height: 15vw;
     } 
     .left-side{
         display: none;
@@ -557,7 +565,7 @@ hr{
         margin-left: 3vw;
     }
     #card-name{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .card-box{
         width: 90vw;
@@ -687,14 +695,17 @@ hr{
     }
     .travel-chat{
         width: 96vw;
+        height: 58vw;
         margin-left: 2vw;
     }
     #chat-input{
         width: 21vw;
+        height: 7vw;
         margin: 1vw 6vw;
     }
     .travel-h{
-        width: 96vw;        
+        width: 96vw;
+        height: 12vw;        
     }
     #row101{
         font-size: 9px;
@@ -748,12 +759,14 @@ hr{
 }
 .filter{
     width: 14vw;
+    height: 8vw;
 }
 #claim-con{
     font-size: 0.5rem;
 }
 .claim{
     width: 26vw;
+    height: 8vw;
 }
 .form{
     display: block;
@@ -767,6 +780,7 @@ hr{
 }
 .sec{
     width: 94vw;
+    height: 10vw;
 }
 #input{
     width: 87vw;
@@ -780,6 +794,7 @@ hr{
 }
 #input-1{
     width: 91vw;
+    height: 9vw;
 }
 .sec-3{
     margin-top: 1vw;
