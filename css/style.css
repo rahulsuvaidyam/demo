@@ -243,6 +243,12 @@ hr{
     margin: 1vw 1.5vw;
    
 }
+#coll{
+    background-color: red;
+    padding: 4px;
+    border-radius: 5px;
+    margin: -5px -5px;
+}
 .date-data{
     display: flex;
 }
@@ -583,9 +589,10 @@ hr{
         width: 90vw;
         height: 65vh;
         margin-left: 4.5vw;
+        border: 1px solid papayawhip;
     }
     hr{
-        width: 80vw;
+        width: 86vw;
         margin-left: 1.5vw;
         margin-top: 4vw;
     }
@@ -595,7 +602,7 @@ hr{
     .card-boxl1{
         width: 90vw;
         margin-left: 4.5vw;
-        border: 1px solid red;
+        border: 1px solid papayawhip;
     }
     .bulet-bule{
         width: 4vw;
@@ -724,7 +731,7 @@ hr{
 /* ==========3rd============== */
 .right-side{
     width: 100%;
-    height: 210vh;
+    height: 127vh;
 }
 .right-son{
     margin: 1.5vw 25vw;
