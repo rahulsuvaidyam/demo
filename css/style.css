@@ -515,7 +515,7 @@ hr{
    #nav-a{
         color: white;
         margin-left: 3vw;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     .nav-log{
         margin-left: 6vw;
@@ -548,6 +548,9 @@ hr{
         padding: 7px 9px;
         margin-left: 5vw;
         margin-top: 2.5vw;
+    }
+    .main{
+        height: 234vh;
     }
     .card{
         display: block;
