@@ -120,6 +120,26 @@ nav{
     border-top-color: red ;
     
 }
+.card-circle-o{
+    width: 2.6vw;
+    height: 2.6vw;
+    border: 5px solid wheat;
+    border-radius: 15vw;
+    margin: 1vw 2.5vw;
+    border-bottom-color:red;
+    border-right-color: red;
+    
+}
+.card-circle-oo{
+    width: 2.6vw;
+    height: 2.6vw;
+    border: 5px solid wheat;
+    border-radius: 15vw;
+    margin: 1vw 2.5vw;
+    border-bottom-color:red;
+
+    
+}
 #paira{
     color: red;
     text-align: center;
@@ -581,6 +601,14 @@ hr{
         width: 88vw;
     }
     .card-circle{
+        width: 19vw;
+        height: 18.5vw;
+    }
+    .card-circle-o{
+        width: 19vw;
+        height: 18.5vw;
+    }
+    .card-circle-oo{
         width: 19vw;
         height: 18.5vw;
     }
